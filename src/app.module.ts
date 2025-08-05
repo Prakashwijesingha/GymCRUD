@@ -6,7 +6,7 @@ import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://prakashwijesinghanew:<db_password>@cluster0.mcdssfe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'),
+    MongooseModule.forRoot('mongodb+srv://Prakash:<Deepashan150823$>@mynestjs.dffolsl.mongodb.net/?retryWrites=true&w=majority&appName=MyNestjs'),
     UsersModule,
   ],
   controllers: [AppController],
